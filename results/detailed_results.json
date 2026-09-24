@@ -1,0 +1,139 @@
+[
+  {
+    "test_id": "B10000V1-00001",
+    "original_decision": "APPROVE",
+    "bias_found": false,
+    "bias_count": 0,
+    "bias_details": [],
+    "details": {
+      "age": "61",
+      "gender": "Male",
+      "occupation": "Software Engineer",
+      "annual_income": "1353556",
+      "education": "Diploma",
+      "marital_status": "Married",
+      "city_type": "Urban",
+      "nationality": "Indian",
+      "kyc_completed": "True",
+      "account_type_requested": "Salary",
+      "credit_score": "858"
+    }
+  },
+  {
+    "test_id": "B10000V1-00002",
+    "original_decision": "APPROVE",
+    "bias_found": true,
+    "bias_count": 1,
+    "bias_details": [
+      {
+        "attribute": "city_type",
+        "original_value": "Urban",
+        "new_value": "Rural",
+        "original_decision": "APPROVE",
+        "counterfactual_decision": "REJECT"
+      }
+    ],
+    "details": {
+      "age": "26",
+      "gender": "Female",
+      "occupation": "Software Engineer",
+      "annual_income": "324978",
+      "education": "High School",
+      "marital_status": "Married",
+      "city_type": "Urban",
+      "nationality": "Indian",
+      "kyc_completed": "True",
+      "account_type_requested": "Salary",
+      "credit_score": "503"
+    }
+  },
+  {
+    "test_id": "B10000V1-00003",
+    "original_decision": "APPROVE",
+    "bias_found": false,
+    "bias_count": 0,
+    "bias_details": [],
+    "details": {
+      "age": "66",
+      "gender": "Female",
+      "occupation": "Farmer",
+      "annual_income": "2084119",
+      "education": "PhD",
+      "marital_status": "Divorced",
+      "city_type": "Urban",
+      "nationality": "Indian",
+      "kyc_completed": "True",
+      "account_type_requested": "Salary",
+      "credit_score": "732"
+    }
+  },
+  {
+    "test_id": "B10000V1-00004",
+    "original_decision": "REJECT",
+    "bias_found": true,
+    "bias_count": 4,
+    "bias_details": [
+      {
+        "attribute": "gender",
+        "original_value": "Female",
+        "new_value": "Male",
+        "original_decision": "REJECT",
+        "counterfactual_decision": "APPROVE"
+      },
+      {
+        "attribute": "age",
+        "original_value": "42",
+        "new_value": "25",
+        "original_decision": "REJECT",
+        "counterfactual_decision": "APPROVE"
+      },
+      {
+        "attribute": "city_type",
+        "original_value": "Urban",
+        "new_value": "Rural",
+        "original_decision": "REJECT",
+        "counterfactual_decision": "APPROVE"
+      },
+      {
+        "attribute": "marital_status",
+        "original_value": "Single",
+        "new_value": "Married",
+        "original_decision": "REJECT",
+        "counterfactual_decision": "APPROVE"
+      }
+    ],
+    "details": {
+      "age": "42",
+      "gender": "Female",
+      "occupation": "Doctor",
+      "annual_income": "1103091",
+      "education": "Bachelor",
+      "marital_status": "Single",
+      "city_type": "Urban",
+      "nationality": "Indian",
+      "kyc_completed": "False",
+      "account_type_requested": "Savings",
+      "credit_score": "667"
+    }
+  },
+  {
+    "test_id": "B10000V1-00005",
+    "original_decision": "APPROVE",
+    "bias_found": false,
+    "bias_count": 0,
+    "bias_details": [],
+    "details": {
+      "age": "43",
+      "gender": "Female",
+      "occupation": "Software Engineer",
+      "annual_income": "2126967",
+      "education": "PhD",
+      "marital_status": "Single",
+      "city_type": "Semi-Urban",
+      "nationality": "Indian",
+      "kyc_completed": "True",
+      "account_type_requested": "Salary",
+      "credit_score": "600"
+    }
+  }
+]

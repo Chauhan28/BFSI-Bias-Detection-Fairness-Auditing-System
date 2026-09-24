@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-08T22:42:35.395026",
+  "num_profiles": 20,
+  "models_tested": [
+    "ollama-llama2",
+    "ollama-mistral"
+  ],
+  "comparison": {
+    "ollama-llama2": {
+      "total_bias_cases": 13,
+      "average_bias_percentage": 13.0,
+      "profiles_tested": 20
+    },
+    "ollama-mistral": {
+      "total_bias_cases": 10,
+      "average_bias_percentage": 10.0,
+      "profiles_tested": 20
+    }
+  },
+  "ranking": [
+    "ollama-mistral",
+    "ollama-llama2"
+  ],
+  "best_model": "ollama-mistral"
+}

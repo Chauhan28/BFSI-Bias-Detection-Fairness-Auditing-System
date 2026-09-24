@@ -1,0 +1,2 @@
+requests==2.31.0  # to send prompts to Ollama
+pandas==2.2.0    # to read/process JSON and craete DataFrames

@@ -1,0 +1,368 @@
+{
+  "overall_score": 26.67,
+  "decision_consistency_rate": 46.67,
+  "explanation_similarity": 0.19,
+  "profiles_tested": 30,
+  "detailed_results": [
+    {
+      "test_id": "B10000V1-00001",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.19,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00002",
+      "decisions": [
+        "UNCLEAR",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.15,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00003",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.2,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00004",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.2,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00005",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.59,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00006",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.32,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00007",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.03,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00008",
+      "decisions": [
+        "UNCLEAR",
+        "APPROVE",
+        "REJECT"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.06,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00009",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.14,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00010",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.11,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00011",
+      "decisions": [
+        "REJECT",
+        "UNCLEAR",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.45,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00012",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.35,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00013",
+      "decisions": [
+        "UNCLEAR",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.15,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00014",
+      "decisions": [
+        "APPROVE",
+        "UNCLEAR",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.06,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00015",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.03,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00016",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.07,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00017",
+      "decisions": [
+        "APPROVE",
+        "UNCLEAR",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.42,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00018",
+      "decisions": [
+        "APPROVE",
+        "UNCLEAR",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.17,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00019",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.12,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00020",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.17,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00021",
+      "decisions": [
+        "UNCLEAR",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.26,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00022",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.07,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00023",
+      "decisions": [
+        "UNCLEAR",
+        "UNCLEAR",
+        "UNCLEAR"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.11,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00024",
+      "decisions": [
+        "APPROVE",
+        "UNCLEAR",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.62,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00025",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.11,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00026",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.08,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00027",
+      "decisions": [
+        "UNCLEAR",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.21,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00028",
+      "decisions": [
+        "UNCLEAR",
+        "UNCLEAR",
+        "APPROVE"
+      ],
+      "all_decisions_same": false,
+      "explanation_similarity": 0.12,
+      "consistency_score": 0,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00029",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.1,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    },
+    {
+      "test_id": "B10000V1-00030",
+      "decisions": [
+        "APPROVE",
+        "APPROVE",
+        "APPROVE"
+      ],
+      "all_decisions_same": true,
+      "explanation_similarity": 0.08,
+      "consistency_score": 50,
+      "status": "\u26a0\ufe0f  INCONSISTENT"
+    }
+  ]
+}

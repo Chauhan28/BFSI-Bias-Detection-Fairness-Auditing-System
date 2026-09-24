@@ -1,0 +1,6 @@
+test_id,decision,bias_found,bias_count,gender,age,occupation,income,credit_score
+B10000V1-00001,APPROVE,No,0,Male,61,Software Engineer,1353556,858
+B10000V1-00002,APPROVE,Yes,1,Female,26,Software Engineer,324978,503
+B10000V1-00003,APPROVE,Yes,2,Female,66,Farmer,2084119,732
+B10000V1-00004,UNCLEAR,Yes,4,Female,42,Doctor,1103091,667
+B10000V1-00005,APPROVE,Yes,2,Female,43,Software Engineer,2126967,600

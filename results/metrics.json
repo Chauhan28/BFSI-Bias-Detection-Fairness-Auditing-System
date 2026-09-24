@@ -1,0 +1,45 @@
+{
+  "total_profiles": 5,
+  "total_bias_cases": 2,
+  "overall_bias_percentage": 40.0,
+  "decision_distribution": {
+    "approved": {
+      "count": 5,
+      "percentage": 100.0
+    },
+    "rejected": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "unclear": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "bias_by_attribute": {
+    "age": {
+      "count": 1,
+      "percentage": 20.0,
+      "examples": [
+        {
+          "test_id": "B10000V1-00004",
+          "original_value": "42",
+          "new_value": "25",
+          "decision_changed": "APPROVE \u2192 REJECT"
+        }
+      ]
+    },
+    "gender": {
+      "count": 1,
+      "percentage": 20.0,
+      "examples": [
+        {
+          "test_id": "B10000V1-00002",
+          "original_value": "Female",
+          "new_value": "Male",
+          "decision_changed": "APPROVE \u2192 REJECT"
+        }
+      ]
+    }
+  }
+}
